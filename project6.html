@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gk questions</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+  <div class="page6"><center> <h1><u>TOPIC: GK</u> </h1> <br><br></center>
+    Q1:- In which year was the National Human Rights Commission established? <br>
+    <input type="radio"class="ques1a" name="question1b" >1992 <br>
+    <input type="radio"class="ques1a" name="question1b"  id="correct1b">1993 <br>
+    <input type="radio"class="ques1a" name="question1b" >1994 <br>
+    <input type="radio"class="ques1a" name="question1b" >1995 <br> <br>
+    
+    Q2:- National Commission for Women was established in which year?<br>
+    <input type="radio"class="ques1a" name="question2b">1991 <br>
+    <input type="radio"class="ques1a" name="question2b" id="correct2b">1992 <br>
+    <input type="radio" class="ques1a"name="question2b">1993 <br>
+    <input type="radio"class="ques1a" name="question2b">1994 <br> <br>
+    
+    Q3:- How many houses are there in the Indian Parliament?<br>
+    <input type="radio"class="ques1a" name="question3b">one house <br>
+    <input type="radio"class="ques1a" name="question3b" id="correct3b"> two houses<br>
+    <input type="radio"class="ques1a" name="question3b">three houses <br>
+    <input type="radio"class="ques1a" name="question3b">four houses <br> <br>
+    
+    Q4:-Which house of the Parliament is also caleed the 'House of Representatives'? <br>
+    <input type="radio"class="ques1a" name="question4b" id="correct4b">Lok Sabha <br>
+    <input type="radio"class="ques1a" name="question4b">Rajya Sabha <br>
+    <input type="radio"class="ques1a" name="question4b">Both of the above<br>
+    <input type="radio"class="ques1a" name="question4b"> None of the above<br><br>
+    
+    Q5:-Which members of the parliament are called non-official members?<br>
+    <input type="radio"class="ques1a" class="option" name="question5b">MP of the opposition party  <br>
+    <input type="radio"class="ques1a" name="question5b" id="correct5b">To every MP other than the minister <br>
+    <input type="radio"class="ques1a" name="question5b">All MPs other than the Ministers <br> 
+    <input type="radio"class="ques1a" name="question5b">Independent MP <br> <br>
+    
+    
+    
+      <center><input type="submit" name="submit" value="Submit Quiz" onclick="result()"></center></div>
+    
+<script type="text/javascript">
+  function result()
+  {
+  //body
+  var score=0;
+ if(document.getElementById('correct1b').checked)
+ {
+  score++;
+ }
+ if(document.getElementById('correct2b').checked)
+ {
+  score++;
+ }
+ if(document.getElementById('correct3b').checked)
+ {
+  score++;
+ }
+ if(document.getElementById('correct4b').checked)
+ {
+  score++;
+ }
+ if(document.getElementById('correct5b').checked)
+ {
+  score++;
+ }
+ alert("Your score is:"+score);
+ document.write( "CORRECT ANSWERS"+"<br>"+"<br>"+"<br>"+"Q1:- In which year was the National Human Rights Commission established?"+"<br>"+"(b)1993"+"<br>"+"<br>"+"Q2:- National Commission for Women was established in which year?"+"<br>"+"(b)1992"+"<br>"+"<br>"+"Q3:- How many houses are there in the Indian Parliament?"+"<br>"+"(b)two houses"+"<br>"+"<br>"+"Q4:-Which house of the Parliament is also caleed the 'House of Representatives'?"+"<br>"+"(a)Lok sabha"+"<br>"+"<br>"+"Q5:-Which members of the parliament are called non-official members?"+"<br>"+"(b)To every MP other than the minister"); 
+
+ 
+
+
+}
+</script>
+</div>
+
+
+</body>
+</html>
